@@ -1,0 +1,51 @@
+body{
+    background-image:url(/Resources/wholeback.avif) ;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+}
+#label-login{
+    margin-top: 30px;
+    padding: 2px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 550px;
+    height: 80px;
+    margin-top: px;
+}
+
+.login-mail{
+
+    height: 40px;
+    margin-top: 15px;
+    background-image: url(/Resources/wholeback.avif);
+    color: black;
+
+
+}
+
+.login-pass{
+    height: 40px;
+    margin-top: 15px;
+    background-image: url(/Resources/wholeback.avif);
+}
+#login-btn{
+    
+    height: 40px;
+    margin-top: 15px;
+    padding: 10px;
+
+}
+#login-btn:hover
+{
+    background-color: lightgreen;
+}
+
+
+
+

@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(/Resources/wholeback.avif);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-image: url(/Resources/wholeback.avif);
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    float: left;
+    margin-top: -20px;
+}
+
+
+nav ul {
+    float: right;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.cart {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.cart-item {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.cart-item img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+}
+
+.details {
+    flex: 1;
+}
+
+.actions {
+    flex-shrink: 0;
+}
+
+.cart-total {
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 100px;
+}
+
+.checkout-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.checkout-btn:hover {
+    background-color: lightgreen;
+}
